@@ -1,5 +1,5 @@
 '''
-this code by yeuda by https://t.me/m100achuz
+this code by yeuda by https://t.me/ikku_hoi
 
 
 pip install Pyrogram
@@ -54,7 +54,7 @@ def service(c, m):
 @app.on_message(filters.private)
 def start(_, msg: Message):
     msg.reply(PRIVATE, reply_markup=InlineKeyboardMarkup([[
-        InlineKeyboardButton("Source Code", url="https://www.github.com/samadii/remove-all-members")]]))
+        InlineKeyboardButton("Owner", url="https://t.me/ikku_hoi")]]))
 
 
 app.run()
